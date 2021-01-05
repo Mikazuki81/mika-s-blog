@@ -1,26 +1,31 @@
 import React from "react"
 
+import { NavLink } from "react-router-dom"
+
 const Header = () => {
   return (
-    <header className='w-full py-8 px-4 bg-gray-200 bg-opacity-40'>
+    <header className='w-auto py-8 px-4 bg-gray-200 bg-opacity-40'>
       <div className='flex items-center justify-between'>
-        <a href='/' className='text-4xl font-bold text-blue-500 mx-4'>
+        <NavLink
+          to='/'
+          className='text-4xl font-bold text-blue-500 mx-4 hover:text-blue-300 transition duration-400 hover:underline'>
           Mika's Blogs
-        </a>
+        </NavLink>
+
         <ul className='flex items-center justify-between text-black'>
           <li className='mx-4'>
-            <a
-              href='/'
+            <NavLink
+              to='/'
               className='font-medium text-lg active hover:text-blue-500 hover:underline '>
               Home
-            </a>
+            </NavLink>
           </li>
           <li className='mx-4'>
-            <a
-              href='/posts'
+            <NavLink
+              to='/post'
               className='font-medium text-lg hover:text-blue-500 hover:underline'>
               Post
-            </a>
+            </NavLink>
           </li>
           <li className='mx-4 my-2'>
             <a

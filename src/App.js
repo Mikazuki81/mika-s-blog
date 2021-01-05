@@ -1,11 +1,21 @@
 import React from "react"
-import Homepage from "./pages/Homepage"
+import Routes from "./routes"
+import { BrowserRouter as Router } from "react-router-dom"
+
+// importing components
+import Footer from "./elements/Footer"
+import Header from "./elements/Header"
 
 const App = () => {
   return (
-    <>
-      <Homepage />
-    </>
+    <Router>
+      <Header />
+
+      <section className='main'>
+        <Routes />
+      </section>
+      <Footer />
+    </Router>
   )
 }
 

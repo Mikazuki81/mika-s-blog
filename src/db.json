@@ -1,0 +1,31 @@
+{
+  "data": {
+    "status": "Success",
+    "posts": [
+      {
+        "_id": 1,
+        "title": "lorem ipsum title",
+        "description": "lorem ipsum descriptoin folsodsa dkjksjadln sadljasl ",
+        "author": "alpha01",
+        "date": "04 Jan 2021",
+        "image": "/images/post-1.jpg"
+      },
+      {
+        "_id": 2,
+        "title": "lorem ipsum title",
+        "description": "lorem ipsum descriptoin folsodsa dkjksjadln sadljasl ",
+        "author": "Charles 03",
+        "date": "05 Jan 2021",
+        "image": "/images/post-2.jpg"
+      },
+      {
+        "_id": 3,
+        "title": "lorem ipsum title",
+        "description": "lorem ipsum descriptoin folsodsa dkjksjadln sadljasl ",
+        "author": "bravo02",
+        "date": "06 Jan 2021",
+        "image": "/images/post-3.jpg"
+      }
+    ]
+  }
+}
