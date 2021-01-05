@@ -19,7 +19,8 @@
     "web-vitals": "^0.2.4"
   },
   "scripts": {
-    "start": "craco start PORT=3300",
+    "start": "craco start",
+    "server:json": "json-server --watch ./src/db.json -p 4001",
     "build": "craco build",
     "test": "craco test",
     "build:css": "npx tailwindcss-cli@latest build ./src/tailwind.css -o ./src/app.css",

@@ -27,5 +27,11 @@
       "date": "06 Jan 2021",
       "image": "/images/post-3.jpg"
     }
+  ],
+  "galery": [
+    {
+      "id": 1,
+      "src": "/galery/img-1.jpg"
+    }
   ]
 }
