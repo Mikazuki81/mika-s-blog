@@ -1,14 +1,16 @@
 import React from "react"
 import { Route } from "react-router-dom"
+import AddPostpage from "../pages/AddPostpage"
 
 import Homepage from "../pages/Homepage"
-import Postspage from "../pages/Postspage"
+import SinglePostpage from "../pages/SinglePostpage"
 
 const Routes = () => {
   return (
     <>
       <Route component={Homepage} exact path='/' />
-      <Route component={Postspage} exact path='/post' />
+      <Route component={SinglePostpage} path='/post/:id' />
+      <Route component={AddPostpage} path='/create-post' />
     </>
   )
 }

@@ -11,7 +11,7 @@ const App = () => {
     <Router>
       <Header />
 
-      <section className='main'>
+      <section className='main container mx-32 my-6 px-5 py-4  max-w-screen-lg'>
         <Routes />
       </section>
       <Footer />

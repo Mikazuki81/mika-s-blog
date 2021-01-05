@@ -22,17 +22,17 @@ const Header = () => {
           </li>
           <li className='mx-4'>
             <NavLink
-              to='/post'
+              to='/galery'
               className='font-medium text-lg hover:text-blue-500 hover:underline'>
-              Post
+              Galery
             </NavLink>
           </li>
           <li className='mx-4 my-2'>
-            <a
-              href='/create-post'
+            <NavLink
+              to='/create-post'
               className='font-medium text-lg text-white hover:text-white hover:underline bg-blue-600 px-4 py-2 outline-none rounded-md'>
               Create Post
-            </a>
+            </NavLink>
           </li>
         </ul>
       </div>

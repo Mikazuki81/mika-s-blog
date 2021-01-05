@@ -19,7 +19,7 @@
     "web-vitals": "^0.2.4"
   },
   "scripts": {
-    "start": "craco start",
+    "start": "craco start PORT=3300",
     "build": "craco build",
     "test": "craco test",
     "build:css": "npx tailwindcss-cli@latest build ./src/tailwind.css -o ./src/app.css",
